@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="ass02.css" />
+</head>
+<body>
+<form  action="http://www.randyconnolly.com/tests/process.php" method="get">
+    <fieldset>
+       <legend>Advanced Art Work Search</legend>
+        <div id="searchBox">
+            <p id="p1">
+                <input type="tel" id="searchBar" name="search" placeholder="Search title" />
+                <label>Subject: </label>
+                <input type="radio" name="subject" value="0" checked>History
+                <input type="radio" name="subject" value="1">Person
+                <input type="radio" name="subject" value="2">Landscape
+                <select  name="filter">
+                    <option disabled selected hidden>Select Genre</option>
+                    <option value="0">Baroque</option>
+                    <option value="1">Renaissance</option>
+                    <option value="2">Realism</option>
+                </select>
+                <button id="editedbuttom">filter</button>
+            </p>
+        </div>   
+        <div id="settingsBox">
+            <select  name="action">
+                <option disabled selected hidden>Bluk Action</option>
+                <option value="0">Archive</option>
+                <option value="1">Edit</option>
+                <option value="2">Delete</option>
+                <option value="3">Collection</option>
+            </select>
+            <button id="editedbuttom">Apply To All</button>
+        </div>
+        <div id="paintingBox">
+            <table>
+                <caption>Paintings</caption>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Artist</th>
+                        <th>Year</th>
+                        <th>Genre</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                                       
+                        <td id="first_column"><input type="checkbox" name="index[]" value="0">
+                            <img src="images/05030.jpg" alt="Death of Marat"/><p>Death of Marat</p></td>
+                        <td>David,Jacques-Louis</td>
+                        <td>1793</td>
+                        <td>Romanticism</td>
+                        <td>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/archive.png" alt="archive"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/edit.png" alt="edit"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/delete.png" alt="delete"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/collection.png" alt="collection"/></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="first_column"><input type="checkbox" name="index[]" value="1">
+                        <img src="images/120010.jpg" alt="Portrait of Eleanor of Toledo"/><p>Portrait of Eleanor of Toledo</p></td>
+                        <td>Bronzino, Agnolo</td>
+                        <td>1545</td>
+                        <td>Mannerism</td>
+                        <td>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/archive.png" alt="archive"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/edit.png" alt="edit"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/delete.png" alt="delete"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/collection.png" alt="collection"/></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="first_column"><input type="checkbox" name="index[]" value="2">
+                        <img src="images/07020.jpg" alt="Liberty leading the People"/><p>Liberty leading the People</p></td>
+                        <td>Delacroix, Eugene</td>
+                        <td>1830</td>
+                        <td>Romanticism</td>
+                        <td>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/archive.png" alt="archive"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/edit.png" alt="edit"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/delete.png" alt="delete"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/collection.png" alt="collection"/></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="first_column"><input type="checkbox" name="index[]" value="3">
+                        <img id="" src="images/13030.jpg" alt="Arrangement in Grey and Black"/><p>Arrangement in Grey and Black</p</td>
+                        <td>Whistler, james Abbott</td>
+                        <td>1871</td>
+                        <td>Realism</td>
+                        <td>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/archive.png" alt="archive"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/edit.png" alt="edit"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/delete.png" alt="delete"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/collection.png" alt="collection"/></button>
+                        </td>
+                    </tr>
+                    <tr id="lastline">
+                        <td id="first_column"><input type="checkbox" name="index[]" value="4">
+                            <img src="images/06010.jpg" alt="Mademoiselle Caroline Riviere"/><p>Mademoiselle Caroline Riviere</p></td>
+                        <td>Ingres, Jean-Auguste</td>
+                        <td>1806</td>
+                        <td>Neo-Classicism</td>
+                        <td>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/archive.png" alt="archive"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/edit.png" alt="edit"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/delete.png" alt="delete"/></button>
+                            <button formaction="https://www.birzeit.edu/"><img src="images/collection.png" alt="collection"/></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+    </fieldset>  
+</form>
+</body>
+</html>

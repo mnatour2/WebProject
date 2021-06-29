@@ -1,0 +1,226 @@
+h1,
+h2,
+h3,
+nav,
+footer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin-block: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend {
+  background-color: blue;
+  color: white;
+  width: 93%;
+  padding: 8px;
+  font-size: x-large;
+  text-align: center;
+}
+
+fieldset {
+  margin: 1em auto;
+  background-color: aqua;
+}
+
+div#searchBox,
+div#carsBox {
+  margin: 5px;
+  background-color: aqua;
+  border: 1pt solid black;
+  padding-left: 10px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+div#searchBox {
+  margin-top: 1em;
+}
+
+div#carsBox {
+  margin-top: 1em;
+}
+
+table thead {
+  background-color: aqua;
+  border-collapse: collapse;
+}
+
+caption {
+  background-color: aquamarine;
+  font-weight: bold;
+  padding: 5px;
+}
+
+tr {
+  border-bottom: groove;
+}
+
+td {
+  align-items: center;
+}
+
+#lastline {
+  border-bottom: none;
+}
+table {
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 40px;
+}
+
+p {
+  margin-left: 50px;
+  font-style: italic;
+}
+
+#p1 {
+  font-style: normal;
+  margin-left: auto;
+}
+
+td > img {
+  border: 1px solid #616161;
+  padding: 2px;
+  margin-left: 20px;
+}
+
+select {
+  border-radius: 4px;
+  border-color: rgb(185, 184, 184);
+  background-color: rgb(247, 245, 245);
+  padding: 4px;
+}
+
+#searchBar {
+  border-radius: 4px;
+  width: 350px;
+  border-color: rgb(222, 222, 222);
+}
+
+#editedbutton {
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid rgb(184, 184, 184);
+}
+
+#divBt{
+  background-color: #0f294d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  color: black;
+  background-color: #85afeb;
+  border: #000 solid 1px;
+}
+main {
+  color: #0f294d;
+  background-color: #85afeb;
+  margin: 0px;
+  padding-left: 20px;
+  border: #000 solid 2px;
+  font: bold;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #fff;
+}
+footer {
+  color: black;
+  background-color: white;
+}
+#topnav {
+  overflow: hidden;
+  background-color: #0f294d;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+#topnav a.topnav-item {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#topnav a.topnav-item:link {
+  background-color: #0f294d;
+  color: white;
+}
+#topnav a.topnav-item:visited {
+  background-color: #0f294d;
+  color: white;
+}
+#topnav a.topnav-item:hover {
+  background-color: #85afeb !important;
+  color: white;
+}
+#topnav a.active {
+  background-color: #000 !important;
+  color: #fff;
+}
+#topnav a.topnav-item:active {
+  background-color: #41308a !important;
+  color: white;
+}
+#header2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+}
+#footer {
+  overflow: hidden;
+  background-color: #0f294d;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  border: #000 solid 1px;
+  font-size: 15px;
+}
+#fig1 {
+  width: 400px;
+  height: 500px;
+  border: solid 10px #000;
+  background-color: #0f294d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#link1 {
+  height: fit-content;
+  width: fit-content;
+}
+#img1 {
+  width: 300px;
+  height: 400px;
+}
+
+#main1 {
+  font-size: 28px;
+  padding: 0px 10px;
+  margin-left: 160px;
+}
+
+.content {
+  position: relative;
+  height: 85%;
+}
